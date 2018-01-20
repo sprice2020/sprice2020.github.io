@@ -1,0 +1,57 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(255, 255, 102);
+  padding-top: 70px;
+}
+
+#hello {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  animation-name: transition;
+  animation-duration: 4s;
+  animation-delay: 2s;
+
+}
+
+@keyframes transition {
+  from {color: rgb(255, 255, 102);}
+  to {color: rgb(64, 64, 64);}
+}
+
+#hello2 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  animation-name: transition2;
+  animation-duration: 4s;
+  animation-delay: 6s;
+}
+
+@keyframes transition2 {
+  from {color: rgb(255, 255, 102);}
+  to {color: rgb(64, 64, 64);}
+}
+
+#hello3 {
+  color: rgb(64, 64, 64);
+  font-size: 50px;
+  animation-name: transition3;
+  animation-duration: 4s;
+  animation-delay: 10s;
+}
+
+@keyframes transition3 {
+  from {color: rgb(255, 255, 102);}
+  to {color: rgb(64, 64, 64);}
+}
+
+.welcome {
+  margin: auto;
+  width: 45%;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#intro {
+  color: rgb(64, 64, 64);
+  font-size: 20px;
+}
