@@ -5,11 +5,12 @@ body {
 }
 
 #hello {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 102);
   font-size: 50px;
   animation-name: transition;
-  animation-duration: 4s;
-  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 
 }
 
@@ -19,11 +20,12 @@ body {
 }
 
 #hello2 {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 102);
   font-size: 50px;
   animation-name: transition2;
-  animation-duration: 4s;
-  animation-delay: 6s;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes transition2 {
@@ -32,11 +34,12 @@ body {
 }
 
 #hello3 {
-  color: rgb(64, 64, 64);
+  color: rgb(255, 255, 102);
   font-size: 50px;
   animation-name: transition3;
-  animation-duration: 4s;
-  animation-delay: 10s;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes transition3 {
