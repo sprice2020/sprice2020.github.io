@@ -49,7 +49,7 @@ body {
 
 .welcome {
   margin: auto;
-  width: 45%;
+  width: 50%;
   padding-top: 60px;
   text-align: center;
 }
@@ -82,4 +82,22 @@ body {
 
 .button {
     padding-top: 20px;
+}
+
+.intro {
+  margin: auto;
+  text-align: center;
+  width: 40%;
+  padding: 20px;
+}
+
+#aboutMe {
+  color: rgb(64, 64, 64);
+  font-size: 35px;
+  font-style: italic;
+}
+
+#introP {
+  color: rgb(64, 64, 64);
+  font-size: 20px;
 }
