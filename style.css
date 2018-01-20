@@ -58,3 +58,28 @@ body {
   color: rgb(64, 64, 64);
   font-size: 20px;
 }
+
+.enter {
+  background-color: rgb(255, 255, 102);
+    border: none;
+    color: rgb(255, 255, 102);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    animation-name: buttonTrans;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes buttonTrans {
+  from {background-color: rgb(255, 255, 102);}
+  to {background-color: #4CAF50;}
+  from {color: rgb(255, 255, 102);}
+  to {color: white;}
+}
+
+.button {
+    padding-top: 20px;
+}
