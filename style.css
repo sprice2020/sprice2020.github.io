@@ -106,3 +106,37 @@ body {
   text-align: center;
   margin-left: 10px;
 }
+
+#navBar {
+  background-color: rgb(64, 64, 64);
+}
+
+#brand {
+  color: white;
+  font-size: 25px;
+}
+
+.active {
+  color: rgb(64, 64, 64);
+  font-size: 18px;
+}
+
+#exp {
+  color: white;
+  font-size: 18px;
+}
+
+#proj {
+  color: white;
+  font-size: 18px;
+}
+
+#cont {
+  color: white;
+  font-size: 18px;
+}
+
+#abMe {
+  color: white;
+  font-size: 18px;
+}
